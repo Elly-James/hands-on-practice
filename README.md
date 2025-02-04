@@ -16,7 +16,7 @@ A user can also filter the movies according to name of the movies from A to Z or
 In the My movies section, a user can remove a movie from their collection  and also delete the movie from the DOM.
 
 
-Increating the app, I used the **cra** method- ``hands-on-practice``
+Increating the app, I used the **cra** method- ``npx create-react-app hands-on-practice``
  
 ## Components Used
 1. **App** - Which is the parent compomponent of the app and renders props and data to its children components 
