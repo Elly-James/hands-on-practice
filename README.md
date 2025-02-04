@@ -1,6 +1,6 @@
 # The KM Movies
 
-Check out the live [link](https://github.com/)
+Check out the live [link](https://hands-on-practice.vercel.app/)
 
 This project, the fundamental basics of starting to learn React.js  and the use of full CRUD operations in React are illustrated.
 
