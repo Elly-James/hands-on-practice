@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# The KM Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out the live [link](https://github.com/)
 
-## Available Scripts
+This project, the fundamental basics of starting to learn React.js  and the use of full CRUD operations in React are illustrated.
 
-In the project directory, you can run:
+When a user interacts with the app, it enables them to add their prefered bot into the collection by using the form and entering all the details.
 
-### `npm start`
+Upon Submission, the bot gets added to the collection.
+A user can also filter the bots according to class and sort them according to health, armor, damage and name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In the collection, a user can view the bot image, bot details, a button to add to army  and a button to delete the bot from collection.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the My army section, a user can remove a bot from their army  and also delete the bot from the DOM.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Increating the app, I used the **cra** method- ``code-challenge-week2-phase2``
+ 
+## Components Used
+1. **App** - Which is the parent compomponent of the app and renders props and data to its children components 
+2. **Header** - Responsible for displaying the header of the app.
+3. **Filter** - Responsible for handling filtering items according to their class.
+4. **BotForm** - Contains the form that the user can use to add a bot to the collection.
+5. **BotCollection** - Responsible for rendering a collection of bots.
+6. **YourBotArmy** - Enables the user to view their selected bot army.
+7. **SortBar**-  This sorts the bots according to health, armor, damage and name.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites   
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+VsCode Install to view the codes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone ````git clone <SSH KEY>```` the repository to your local machine in the terminal
 
-### `npm run eject`
+cd in to  the code-challenge-week2-phase2 folder and ``npm install`` to install all the dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Use ``npm start`` to start the react app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Author: Elly James Komunga
+Incase you are stuck or experiencing any error, reach me via ellyjames1999@gmail.com
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Licence 
+I have used MIT licence
