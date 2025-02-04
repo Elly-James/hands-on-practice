@@ -53,6 +53,8 @@ function NewMovieForm({ onAddMovie }) {
             value={formData.image}
             onChange={(e) => setFormData({...formData, image: e.target.value})}
             required
+
+            
           />
         </label>
 
